@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="productos">
+            <h1>Productos</h1>
+            <div class="producto">
+                <img src="producto1.jpg" alt="Producto 1">
+                <h2>Producto 1</h2>
+                <p>Descripción breve del producto</p>
+                <p class="precio">€29.99</p>
+                <button class="agregar" data-producto="1">Añadir al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="producto2.jpg" alt="Producto 2">
+                <h2>Producto 2</h2>
+                <p>Descripción breve del producto</p>
+                <p class="precio">€49.99</p>
+                <button class="agregar" data-producto="2">Añadir al carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tienda Online</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
