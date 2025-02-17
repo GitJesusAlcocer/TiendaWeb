@@ -1,0 +1,14 @@
+let carrito = [];
+
+document.querySelectorAll('.agregar').forEach(button => {
+    button.addEventListener('click', () => {
+        const productoId = button.getAttribute('data-producto');
+        agregarAlCarrito(productoId);
+    });
+});
+
+function agregarAlCarrito(id) {
+    // Este es un ejemplo básico, en una tienda real se podría realizar una llamada al servidor
+    carrito.push(id);
+    alert('Producto añadido al carrito');
+}
